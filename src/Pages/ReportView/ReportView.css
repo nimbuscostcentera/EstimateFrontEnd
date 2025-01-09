@@ -1,0 +1,29 @@
+.iframe-style {
+  width: 900px !important;
+  height: 900px !important;
+}
+.filter-box {
+  background-color: #192532;
+  border: 1px solid grey;
+  border-radius: 8px;
+  height: auto;
+
+  max-width: 400px;
+}
+.form-decor {
+  padding: 20px 50px;
+}
+.DateRange {
+  color: white;
+  margin: 10px 0;
+}
+.DateInput {
+  width: 100%;
+  border: 1px solid #192532;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 2px 5px;
+}
+.fullBody {
+  height: 100%;
+}

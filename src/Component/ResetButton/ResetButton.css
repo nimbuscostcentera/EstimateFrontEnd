@@ -1,0 +1,8 @@
+.reset-btn-color {
+  background-color: #da2424;
+  color: white;
+}
+.reset-btn-color:hover {
+  background-color: #e71ebc;
+  color: white;
+}

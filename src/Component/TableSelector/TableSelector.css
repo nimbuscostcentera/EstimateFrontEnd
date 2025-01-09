@@ -1,0 +1,26 @@
+.table-wrapper{
+  max-height: 360px!important;
+  overflow-y: auto!important;
+}
+.white-table {
+  background-color: white;
+  color: #808080;
+}
+th {
+  color: rgb(131, 131, 131) !important;
+  font-weight: 500;
+  font-size: medium;
+  text-align: center;
+}
+td {
+  color: rgb(107, 107, 107) !important;
+  text-align: center;
+}
+.bi-pencil-square{
+  color: rgb(119, 119, 119);
+  font-size: larger;
+  outline: none;
+}
+.bi-pencil-square:hover {
+  color: rgb(0, 102, 255);
+}

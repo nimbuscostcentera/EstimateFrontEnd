@@ -1,0 +1,61 @@
+.table-wrapper {
+  max-height: 360px !important;
+  overflow-y: auto !important;
+  display: block;
+}
+.white-table {
+  background-color: white;
+  color: #808080;
+  border-collapse: collapse;
+}
+thead tr th{
+  color: rgb(131, 131, 131) !important;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+thead tr th:first-child{
+  position: sticky;
+  left: 0;
+  background-color: rgb(243, 243, 243); /* Set background to avoid overlap */
+  z-index: 3; /* Ensure it stays above the other columns */
+  text-align: center;
+  font-size: "10px" !important;
+  padding-bottom: 5px !important;
+}
+tbody tr td:first-child{
+  position: sticky;
+  left: 0;
+  background-color: rgb(243, 243, 243); /* Set background to avoid overlap */
+  z-index: 2; /* Ensure it stays above the other columns */
+  text-align: center;
+  font-size: "10px" !important;
+  padding-bottom: 5px !important;
+}
+
+.bi-pencil-square {
+  color: rgb(119, 119, 119);
+  font-size: larger;
+  outline: none;
+}
+
+.bi-pencil-square:hover {
+  color: rgb(0, 102, 255);
+}
+.ActionInput{
+  width:120px;
+  border:none;
+  color:grey ;
+  outline: none;
+margin-left: 50px;
+padding:5px 5px;
+box-shadow: inset 1px 1px 5px rgb(216, 216, 216);
+}
+tbody tr td{
+  color: #646363!important;
+  font-size: smaller;
+}

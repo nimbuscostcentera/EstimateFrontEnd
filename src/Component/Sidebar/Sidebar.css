@@ -1,0 +1,129 @@
+.navbar {
+  box-shadow: 1px 1px 2px rgb(211, 211, 211);
+  background-color: #192532;
+  position: fixed;
+  top:0;
+  width:100%;
+}
+.nav-link {
+  font-family: "play", sans-serif;
+  cursor: pointer;
+  font-size: 13px!important;
+  padding: 1px 12px;
+  margin: 0px 12px;
+  color: rgb(199, 199, 199) !important;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.active {
+  font-weight: 500;
+  color: #ffffff !important;
+  border-top: 2px solid white; /* Ensure color stays white when active */
+}
+.nav-anchor {
+  color: #192532;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+#menu-button {
+  color: rgb(255, 255, 255) !important;
+  outline: none;
+  font-size: 25px;
+  margin-right: 30px;
+}
+.navbar-toggler:focus {
+  color: white !important;
+  outline: 1px solid white !important;
+  box-shadow: none;
+}
+.nav-item {
+  padding-top: 5px !important;
+}
+.logo-box {
+  width: 180px;
+}
+.nav-item-dropdown {
+  margin-top: 0;
+  padding-top: 0;
+  color: #ffffff;
+}
+.nav-item-dropdown ::after {
+  display: none;
+}
+.active-dropdown {
+  color: dodgerblue;
+  font-weight: normal;
+  font-family: "play", sans-serif;
+}
+
+.offcanvas {
+  background-color: #192532 !important;
+  margin-right: 20px;
+}
+.reg-link[aria-expanded="true"] {
+    font-weight: 500;
+    color: #ffffff !important;
+    border-top: 2px solid white; /* Ensure color stays white when active */
+  }
+  .header-container{
+    margin-left: 30px;
+  }
+@media screen and (max-width: 992px) {
+  .nav-link {
+    font-family: "play", sans-serif;
+    cursor: pointer;
+    padding: 0 12px 20px 5px !important;
+  }
+  .offcanvas-title {
+    color: rgb(199, 199, 199) !important;
+    flex-grow: 1;
+  }
+  .offcanvas-header {
+    padding: 20px 10px 0 10px;
+    margin: 0;
+  }
+  .offcanvas-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+  }
+  .vanising-div {
+    height: auto;
+    width: auto;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+  }
+  .active {
+    width: 130px;
+    font-weight: 500;
+    color: #ffffff !important;
+    border-top: 2px solid white; /* Ensure color stays white when active */
+  }
+  .reg-link[aria-expanded="true"] {
+    width: 130px;
+    font-weight: 500;
+    color: #ffffff !important;
+    border-top: 2px solid white; /* Ensure color stays white when active */
+  }
+  .dropdown-menu {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+.header-container{
+  margin: 0 10px;
+  padding: 0;
+}
+#menu-button{
+  margin-right: 1px;
+}
+.offcanvas{
+margin-right: 10px;
+}
+}
